@@ -1,0 +1,70 @@
+body{
+    margin: 0 auto;
+    padding: 0 auto;
+    box-sizing: border-box;
+}
+.about{
+    display: flex;
+}
+.about-photo img{
+    width: 700px;
+}
+.about-body{
+margin-top: 20px;
+padding: 30px;
+   
+}
+.text{
+    display: flex
+    align-items: center;
+}
+.text h1{
+    font-size: 35px;
+}
+.numbers{
+    display: flex;
+    align-items: center;
+}
+.left{
+    display: flex;
+}
+.right{
+    display: flex;
+    padding-left: 70px;
+}
+.icon{
+    margin-top: 20px;
+    margin-right: 40px;
+    margin-bottom: 55px;
+    padding: 15px;
+    background-color: rgb(231, 231, 231);
+    font-size: 25px;
+   
+}
+.happy-client h1{
+    color: rgb(0, 183, 183);
+    font-size: 35px;
+}
+.happy-client h3{
+    font-size: 12px;
+    color: rgb(79, 79, 79);
+}
+.btn{
+ 
+    margin-top: 20px;
+    padding: 15px;
+    background-color: rgb(191, 216, 239);
+    display: inline-block;
+}
+.btn a{
+    text-decoration: none;
+    color: black;
+
+}
+.fa-magnifying-glass{
+    padding-left: 10px;
+}
+.btn a:hover{
+   font-size: 17px;
+   transition: 0.3s;
+}
